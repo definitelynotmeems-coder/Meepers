@@ -26,7 +26,7 @@ export const botConfig = {
         // Text users will see (example: "Playing /help | Titan Bot").
         name: "meepers meeping ameep",
         // Activity type number (0 = Playing).
-        type: 2,
+        type: 0,
       },
     ],
   },
@@ -91,7 +91,7 @@ export const botConfig = {
   embeds: {
     colors: {
       // Main brand colors.
-      primary: "#301934",
+      primary: "#bf78fd",
       secondary: "#D4AF37",
 
       // Standard status colors for success/error/warning/info messages.
