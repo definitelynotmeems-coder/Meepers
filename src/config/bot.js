@@ -159,9 +159,9 @@ export const botConfig = {
   economy: {
     currency: {
       // Currency display name.
-      name: "coins",
+      name: "meep coins",
       // Plural display name.
-      namePlural: "coins",
+      namePlural: "meep coins",
       // Currency symbol shown in balances.
       symbol: "$",
     },
@@ -170,7 +170,7 @@ export const botConfig = {
     startingBalance: 0,
 
     // Maximum bank amount before upgrades (if upgrades are used).
-    baseBankCapacity: 100000,
+    baseBankCapacity: 1000000,
 
     // Daily reward amount.
     dailyAmount: 100,
@@ -281,7 +281,7 @@ export const botConfig = {
     defaultRole: null,
 
     // Channel ID where birthday announcements are posted.
-    announcementChannel: null,
+    announcementChannel: <1524339101556543540>,
 
     // Timezone used to calculate birthday dates.
     timezone: "UTC",
